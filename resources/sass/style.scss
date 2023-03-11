@@ -1,0 +1,88 @@
+:root {
+    --prim-font: montserrat;
+    --sec-font: poppins;
+
+    --prim-color: rgb(255, 89, 123);
+    --prim-color-dark: rgb(255, 21, 68);
+    --sec-color: rgb(255, 142, 158);
+    --ter-color: rgb(249, 181, 208);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: var(--sec-font);
+}
+
+#main {
+    margin-top: 90px;
+    min-height: 70vh;
+    margin-bottom: 90px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+nav {
+    background-color: var(--prim-color);
+
+    #navbar-main {
+        margin-left: 50px;
+        margin-right: 50px;
+
+        .navbar-brand {
+            font-family: var(--prim-font);
+            font-weight: 600;
+            font-size: 14pt;
+            color: white;
+        }
+
+        .offcanvas-btn {
+            background-color: transparent;
+            border: 0;
+            color: white;
+        }
+
+        .dropdown-toggle {
+            background-color: white;
+            color: var(--prim-color);
+            border: 0;
+            border-radius: 20px;
+            padding: 4px 15px;
+        }
+    }
+}
+
+footer {
+    background-color: var(--prim-color);
+    color: white;
+    padding: 10px 0;
+}
+
+.btn-primary {
+    color: white;
+    background-color: var(--prim-color);
+    border: 0;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: var(--prim-color-dark);
+    border: 0;
+}
+
+.btn-secondary {
+    color: white;
+    background-color: var(--sec-color);
+    border: 0;
+}
+
+.btn-secondary:hover {
+    color: white;
+    background-color: var(--prim-color);
+    border: 0;
+}
+
+.offcanvas-title {
+    color: var(--prim-color);
+}
